@@ -1,0 +1,12 @@
+### Создание нового пользователя
+POST http://localhost:8080/api/users
+Content-Type: application/json
+
+{
+  "name": "Петр Иванов",
+  "email": "petr@example.com",
+  "age": 25
+}
+
+### Получение пользователя по ID
+GET http://localhost:8080/api/users/1

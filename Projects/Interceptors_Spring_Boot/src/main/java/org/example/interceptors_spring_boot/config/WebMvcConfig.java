@@ -23,7 +23,6 @@ WebMvcConfigurer - это интерфейс Spring MVC, который позв
   Легкое тестирование
   Автодополнение в IDE
 */
-
 @Configuration
 @RequiredArgsConstructor
 public class WebMvcConfig implements WebMvcConfigurer {

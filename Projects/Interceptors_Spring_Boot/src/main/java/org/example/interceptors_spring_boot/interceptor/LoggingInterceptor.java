@@ -16,7 +16,6 @@ HandlerInterceptor - это интерфейс Spring MVC,
   postHandle() - после обработки, но до рендеринга view
   afterCompletion() - после полного завершения запроса
 */
-
 @Slf4j
 @Component
 public class LoggingInterceptor implements HandlerInterceptor {

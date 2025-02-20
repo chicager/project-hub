@@ -27,7 +27,6 @@ import org.springframework.context.annotation.Profile;
 
 Это типичный паттерн для инициализации данных в Spring Boot приложениях во время разработки.
 */
-
 @Profile("dev") // Код ниже будет выполняться только если в application.yml активен профиль "dev"
 @Configuration
 public class DataLoaderConfig {

@@ -1,0 +1,17 @@
+### Базовое приветствие с именем
+GET http://localhost:8080/greet?name=World
+
+### Приветствие без имени
+GET http://localhost:8080/greet
+
+### Приветствие с языком и форматом
+GET http://localhost:8080/greet?name=World&lang=ru&format=TEXT
+
+### Приветствие с HTML форматом
+GET http://localhost:8080/greet?name=World&format=HTML
+
+### Приветствие с JSON форматом
+GET http://localhost:8080/greet?name=World&format=JSON
+
+### Приветствие на другом языке
+GET http://localhost:8080/greet?name=John&lang=fr

@@ -1,0 +1,26 @@
+# Default configuration for greeter-spring-boot-starter
+greeter:
+  # Default greeting prefix
+  prefix: "Hello"
+
+  # Default greeting suffix
+  suffix: "!"
+
+  # Default response format (TEXT, HTML, JSON)
+  default-format: TEXT
+
+  # Formatting configuration
+  formatting:
+    # Default timestamp format
+    datetime-pattern: "yyyy-MM-dd HH:mm:ss"
+
+    # HTML output configuration
+    html:
+      wrapper-class: "greeting"
+      message-class: "message"
+      metadata-class: "metadata"
+
+    # JSON output configuration
+    json:
+      include-metadata: true
+      pretty-print: true
